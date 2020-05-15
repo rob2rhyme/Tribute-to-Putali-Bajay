@@ -1,0 +1,144 @@
+
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 14px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.profile-image{
+	margin-top: -150px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	height: 280px;
+	width: 280px;
+  padding: 5px;
+}
+
+h1 {
+	font-family: 'Righteous', cursive, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: url(https://english.onlinekhabar.com/wp-content/uploads/2018/07/tailed-jay.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #c9b8b0;
+  padding: 10px;
+  margin: 0;
+
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  font-family: 'Damion', cursive, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+  font-family: 'Righteous', cursive, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+#tribute-info {
+  border: 2px solid #c9b8b0;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #c9b8b0;
+  opacity: .9;
+
+}
+p, h3 {
+	font-family: 'Damion', cursive, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+	font-size: 3rem;
+	text-shadow: 1px 1px 2px #000000;
+}
+strong:hover, #tribute-link:hover {
+	color: #75ac07;
+}
+
+ul{
+	font-family: 'Michroma', BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  max-width: 60rem;
+  margin: 0 auto 50px auto;
+  text-align: justify;
+  line-height: 1.6;
+  color: #604a3f;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+li{
+  margin: 16px 0;
+}
+
+li:before {
+	content: "\1f98b";
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+footer{
+	font-family: 'Michroma', BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+	bor
+}
