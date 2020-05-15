@@ -1,6 +1,5 @@
-
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 body {
@@ -9,14 +8,6 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
-}
-.profile-image{
-	margin-top: -150px;
-	margin-bottom: 5px;
-	border-radius: 50%;
-	height: 280px;
-	width: 280px;
-  padding: 5px;
 }
 
 h1 {
@@ -69,10 +60,19 @@ img {
 }
 
 #img-div {
-  background: #c9b8b0;
   padding: 10px;
   margin: 0;
 
+}
+
+.profile-image {
+  margin-top: -150px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  height: 280px;
+  width: 280px;
+  padding: 0px;
+  border: 10px solid #c9b8b0;
 }
 
 #img-caption {
@@ -106,7 +106,9 @@ p, h3 {
 	text-shadow: 1px 1px 2px #000000;
 }
 strong:hover, #tribute-link:hover {
-	color: #75ac07;
+	color: #ffffff;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 ul{
